@@ -1,4 +1,4 @@
-import User from "../models/User";
+import User from "../models/User.js";
 import Hotel from "../models/Hotel";
 import Room from "../models/room";
 import Booking from "../models/booking";

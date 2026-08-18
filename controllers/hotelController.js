@@ -1,5 +1,5 @@
 import Hotel from "../models/Hotel";
-import User from "../models/User";
+import User from "../models/User.js";
 
 
 export const registerHotel = async(req, res) => {
