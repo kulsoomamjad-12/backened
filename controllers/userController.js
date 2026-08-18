@@ -1,7 +1,7 @@
 import User from "../models/User.js";
-import Hotel from "../models/Hotel";
-import Room from "../models/room";
-import Booking from "../models/booking";
+import Hotel from "../models/Hotel.js";
+import Room from "../models/room.js";
+import Booking from "../models/booking.js";
 import bcrypt from "bcryptjs";
 
 // GET /api/users

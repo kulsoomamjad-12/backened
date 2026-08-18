@@ -1,6 +1,6 @@
 import express from "express";
-import { protect } from "../middleware/authMiddleware";
-import { getHotelBookings , getMyBookings , createBooking , checkAvailabilityApi} from "../controllers/controller";
+import { protect } from "../middleware/authMiddleware.js";
+import { getHotelBookings , getMyBookings , createBooking , checkAvailabilityApi} from "../controllers/controller.js";
 
 const bookingRouter = express.Router();
 
